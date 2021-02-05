@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+}
+
+.lead {
+  color: #8f6f57;
+}
+a {
+  color: #8f6f57;
+}
+
+body {
+  color: #655346;
+  background: #b58c6e;
+}
+
+.user-header {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}

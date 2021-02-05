@@ -1,0 +1,216 @@
+{
+  "users": {
+    "jonniespratley": {
+      "username": "jonniespratley",
+      "image": "/assets/avatar-js.jpg",
+      "playlistUrl": "data/jonniespratley-playlist.json",
+      "items": [
+        {
+          "id": "playlist-1",
+          "image": "http://placehold.it/225",
+          "name": "Top Tracks",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/1jZBfxuDddTPxZBAVKgVoA/tracks",
+            "total": 21
+          }
+        },
+        {
+          "id": "playlist-2",
+          "image": "http://placehold.it/225",
+          "name": "Summer Tracks",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/1jZBfxuDddTPxZBAVKgVoA/tracks",
+            "total": 21
+          }
+        }
+      ]
+    },
+    "shawnsakamoto": {
+      "username": "shawnsakamoto",
+      "image": "https://static1.squarespace.com/static/5aa02efae2ccd15a8789fc8f/t/5aee18041ae6cf459ed1f810/1612206814091/?format=75w",
+      "playlistUrl": "data/shawnsakamoto-playlist.json",
+      "items": [
+        {
+          "id": "1jZBfxuDddTPxZBAVKgVoA",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1564609297790-OE79HV5BZ7L8UAED9H4X/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmFk_H6M1tkD9NpL7mXac0oVSXdFfjxR5AjcLwGSebOiGBsFzzcw3xKxvyC_6CFFG_/7.2019.jpg?format=300w",
+          "name": "7.2019",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/1jZBfxuDddTPxZBAVKgVoA/tracks",
+            "total": 21
+          }
+        },
+        {
+          "id": "0QZHFFiBfq5NoIpnUIjHRS",
+          "image": "https://pl.scdn.co/images/pl/default/14bac771c34757f9d7effde2f3435950e28a9530",
+          "name": "6.2019",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/0QZHFFiBfq5NoIpnUIjHRS/tracks",
+            "total": 19
+          }
+        },
+        {
+          "id": "3IDQY9i1kw63UjkS0jg0Q8",
+          "image": "https://pl.scdn.co/images/pl/default/329de46470247a240d6a6f8ae8410270d4c8f909",
+          "name": "5.2019",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/3IDQY9i1kw63UjkS0jg0Q8/tracks",
+            "total": 18
+          }
+        },
+        {
+          "id": "6woWXieyYvOjqrN2xdusty",
+          "image": "https://pl.scdn.co/images/pl/default/505260384764fd27ac04c00ce6aca21033d291f6",
+          "name": "4.2019",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/6woWXieyYvOjqrN2xdusty/tracks",
+            "total": 21
+          }
+        },
+        {
+          "id": "0CrTSotRiV1s2I8f4cZKOg",
+          "image": "https://pl.scdn.co/images/pl/default/cc60eca9c044a0e5d8cf6ebf04098cf5d560b937",
+          "name": "3.2019",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/0CrTSotRiV1s2I8f4cZKOg/tracks",
+            "total": 21
+          }
+        },
+        {
+          "id": "7DIRXVjgnmQDJzy8lmVcjC",
+          "image": "https://pl.scdn.co/images/pl/default/0a3ed3cc51a1c09b52241d1234818171995fd5f4",
+          "name": "2.2019",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/7DIRXVjgnmQDJzy8lmVcjC/tracks",
+            "total": 19
+          }
+        },
+        {
+          "id": "4KSFAjcj89oohGI09qo93S",
+          "image": "https://pl.scdn.co/images/pl/default/71375093d87b22503d626798d77dd94e9c8b061a",
+          "name": "1.2019",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/4KSFAjcj89oohGI09qo93S/tracks",
+            "total": 18
+          }
+        },
+        {
+          "id": "4gbaO4SvGQ8VCQGwtMnGRn",
+          "image": "https://pl.scdn.co/images/pl/default/608659509d60a357bdd883dae2e375b75a1f72b6",
+          "name": "12.2018",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/4gbaO4SvGQ8VCQGwtMnGRn/tracks",
+            "total": 21
+          }
+        },
+        {
+          "id": "1ofJSFraWyeZEGisxs2JKm",
+          "image": "https://pl.scdn.co/images/pl/default/39ee0c1f9a8e2774a66aab62db4532df46d83c91",
+          "name": "11.2018",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/1ofJSFraWyeZEGisxs2JKm/tracks",
+            "total": 20
+          }
+        },
+        {
+          "id": "5l3wc90ULYjf6SMxQIgolF",
+          "image": "https://pl.scdn.co/images/pl/default/feec72c89966ef4f1a473f6d28031ca9e171d31e",
+          "name": "10.2018",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/5l3wc90ULYjf6SMxQIgolF/tracks",
+            "total": 18
+          }
+        },
+        {
+          "id": "2W0CBFYcmOigGWtVumRWF1",
+          "image": "https://pl.scdn.co/images/pl/default/e207b17409567227b557f2e038045a81ce4f167b",
+          "name": "9.2018",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/2W0CBFYcmOigGWtVumRWF1/tracks",
+            "total": 19
+          }
+        },
+        {
+          "id": "00I0IRbR7Xr5RduSDhakyd",
+          "image": "https://pl.scdn.co/images/pl/default/937d3d97ede20b9fb6cde8918e9255d153e11eae",
+          "name": "8.2018",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/00I0IRbR7Xr5RduSDhakyd/tracks",
+            "total": 19
+          }
+        },
+        {
+          "id": "1CcKpTjgbmMtV2t8IJFm7f",
+          "image": "https://pl.scdn.co/images/pl/default/f89dddcc160fa03ab05b4465f2ff44caee5557e2",
+          "name": "7.2018",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/1CcKpTjgbmMtV2t8IJFm7f/tracks",
+            "total": 18
+          }
+        },
+        {
+          "id": "2oFS52tvg76bmxphjlm44R",
+          "image": "https://pl.scdn.co/images/pl/default/9d3493f0f9d8196b6b94750246eb987e048a64cc",
+          "name": "6.2018",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/2oFS52tvg76bmxphjlm44R/tracks",
+            "total": 19
+          }
+        },
+        {
+          "id": "4IzCqXTRGMbrzEJlkelf1U",
+          "image": "https://pl.scdn.co/images/pl/default/f9eae8677118aba81f5fd66018686c033c6333cc",
+          "name": "5.2018",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/4IzCqXTRGMbrzEJlkelf1U/tracks",
+            "total": 19
+          }
+        },
+        {
+          "id": "0TdxYPQf5sVZHo58I8VKdv",
+          "image": "https://pl.scdn.co/images/pl/default/8daea1ed80da144848178724a43ad27fe209a9dc",
+          "name": "4.2018",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/0TdxYPQf5sVZHo58I8VKdv/tracks",
+            "total": 18
+          }
+        },
+        {
+          "id": "3RGnKpxkXjFchcUN8nuAvk",
+          "image": "https://pl.scdn.co/images/pl/default/40846a1fc1c6765f08779c3d2824d537716172c5",
+          "name": "3.2018",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/3RGnKpxkXjFchcUN8nuAvk/tracks",
+            "total": 17
+          }
+        },
+        {
+          "id": "2UEkKxR8S8GQAA2RmQKuP0",
+          "image": "https://pl.scdn.co/images/pl/default/6141154d413e60b92625cd4ce8db9148c2de764c",
+          "name": "2.2018",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/2UEkKxR8S8GQAA2RmQKuP0/tracks",
+            "total": 17
+          }
+        },
+        {
+          "id": "1ZZqQIsI8Q8cV8RUO6O4vf",
+          "image": "https://pl.scdn.co/images/pl/default/7adc447ac5d3ea3193fd6d2fb30011a008dd9965",
+          "name": "1.2018",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/1ZZqQIsI8Q8cV8RUO6O4vf/tracks",
+            "total": 17
+          }
+        },
+        {
+          "id": "34aHB6rRI9TnLB41wPxRY2",
+          "image": "https://pl.scdn.co/images/pl/default/d6a1f55a6f30afdce735bff315818d89c420b9ec",
+          "name": "12.2017",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/34aHB6rRI9TnLB41wPxRY2/tracks",
+            "total": 18
+          }
+        }
+      ]
+    }
+  }
+}
