@@ -1,0 +1,21 @@
+{
+  "display_name": "shawnsakamoto",
+  "external_urls": {
+    "spotify": "https://open.spotify.com/user/shawnsakamoto"
+  },
+  "followers": {
+    "href": null,
+    "total": 6
+  },
+  "href": "https://api.spotify.com/v1/users/shawnsakamoto",
+  "id": "shawnsakamoto",
+  "images": [
+    {
+      "height": null,
+      "url": "https://i.scdn.co/image/ab6775700000ee85a127786def905c1ba6fdfddb",
+      "width": null
+    }
+  ],
+  "type": "user",
+  "uri": "spotify:user:shawnsakamoto"
+}
