@@ -1,41 +1,46 @@
-import React from "react";
-import { useRouteMatch } from "react-router-dom";
-import { Box, Grid } from "@material-ui/core";
-import { EpochCard } from "../components/EpochCard";
-import { Header } from "./Header";
+import React from 'react';
+import { useParams } from 'react-router-dom';
+import { Box, Divider, Grid } from '@material-ui/core';
+import { Header, EpochCard } from '../components';
 
-import data from "../data/data.json";
+import data from '../data/data.json';
+
+const renderGridItem = ({ username, item }) => {
+  if (item.type && item.type === 'section') {
+    return (
+      <Grid item xs={12} key={item.id}>
+        <Box py={2}>
+          <Divider />
+        </Box>
+      </Grid>
+    );
+  }
+  return (
+    <Grid item xs={12} sm={3} key={item.id}>
+      <EpochCard {...item} link={`/browse/${username}/${item.id}`} />
+    </Grid>
+  );
+};
 
 export const Profile = ({
   user = {
-    username: ""
+    username: ''
   }
 }) => {
-  let match = useRouteMatch();
-
-  const { username } = match.params;
+  const { username } = useParams();
 
   // TODO - extract and fetch from backend
   const userData = data.users[username];
-
-  console.log(userData);
+  if (!userData) {
+    return <div>Could not find user.</div>;
+  }
 
   return (
     <section>
-      {userData && (
-        <Header username={userData.username} avatar={userData.image} />
-      )}
+      {userData && <Header username={username} avatar={userData.image} />}
       <Grid container spacing={2}>
         {userData.items &&
-          userData.items.map((t) => (
-            <Grid item xs={12} md={3}>
-              <EpochCard
-                key={t.id}
-                {...t}
-                link={`/browse/${userData.username}/${t.id}`}
-              />
-            </Grid>
-          ))}
+          userData.items.map((item) => renderGridItem({ username, item }))}
       </Grid>
     </section>
   );
