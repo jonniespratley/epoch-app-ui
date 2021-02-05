@@ -1,12 +1,13 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import { AppBar, Toolbar, Typography } from '@material-ui/core';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-export const Navbar = () => (
-  <div className="navbar navbar-light bg-transparent shadow-sm">
-    <div className="container d-flex justify-content-between">
-      <Link to="/">
-        <strong>epochs.app</strong>
-      </Link>
-    </div>
-  </div>
+export const Navbar = ({ title = 'epochs.app' }) => (
+  <AppBar position="static" color="transparent">
+    <Toolbar variant="dense">
+      <Typography varient="h6" color="inherit">
+        {title}
+      </Typography>
+    </Toolbar>
+  </AppBar>
 );

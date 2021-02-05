@@ -1,37 +1,22 @@
-import React from "react";
+import React from 'react';
+import { Container } from '@material-ui/core';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import { GraphQLClient, ClientContext } from "graphql-hooks";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Browse, Epochs, NoMatch } from './pages';
+import { Navbar } from './components';
 
-import { Browse, Profile, Details } from "./pages";
-import { Navbar } from "./components/Navbar";
-import data from "./data/data.json";
-import { Container } from "@material-ui/core";
-
-const client = new GraphQLClient({
-  url: "/graphql"
-});
-console.log(data);
-
-function App({ children }) {
+const App = ({ children }) => {
   return (
-    <Router>
-      <Container>
+    <Container>
+      <BrowserRouter>
         <Navbar />
-        <Switch>
-          <Route path="/" exact>
-            <Browse items={Object.keys(data.users)} />
-          </Route>
-          <Route path="/browse/:username">
-            <Profile />
-          </Route>
-          <Route path="/browse/:username/:id">
-            <Details />
-          </Route>
-        </Switch>
-      </Container>
-    </Router>
+        <Routes>
+          <Route path="/" element={<Browse />} />
+          <Route path="browse/*" element={<Epochs />} />
+          <Route element={<NoMatch />} />
+        </Routes>
+      </BrowserRouter>
+    </Container>
   );
-}
-
+};
 export default App;

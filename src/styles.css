@@ -1,17 +1,16 @@
+html,
 body {
   font-family: sans-serif;
+  color: #655346;
+  background: #b58c6e;
 }
 
 .lead {
   color: #8f6f57;
 }
+
 a {
   color: #8f6f57;
-}
-
-body {
-  color: #655346;
-  background: #b58c6e;
 }
 
 .user-header {
