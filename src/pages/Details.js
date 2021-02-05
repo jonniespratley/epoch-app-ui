@@ -4,14 +4,13 @@ import {
   List,
   ListItem,
   ListItemText,
-  RootRef,
-  styled,
-  withStyles
+  styled
 } from '@material-ui/core';
-import React from 'react';
+import React, { useReducer, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import { useFetch } from '../hooks';
 
-import data from '../data/data.json';
+import data from '../../public/data/data.json';
 
 function getPlaylistFromData({ username, playlist }) {
   const userData = data.users[username];
@@ -50,10 +49,21 @@ const ListenButtons = () => {
   );
 };
 
+function getData(username) {
+  console.log('Fetching playlists', username);
+}
+
 export const Details = () => {
   let { username, playlist } = useParams();
+  const [query, setQuery] = useState(`${username}/${playlist}`);
+  const url = query && `/${query}.json`;
+
+  const { status, data, error } = useFetch(url);
+  console.log(status, data, error);
+
   // TODO - Fetch playlist details
   const playlistData = getPlaylistFromData({ username, playlist });
+
   return (
     <Grid container direction="column" justify="center" alignItems="center">
       <Grid item>
