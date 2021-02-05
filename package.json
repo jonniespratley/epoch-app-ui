@@ -6,6 +6,8 @@
   "main": "src/index.js",
   "dependencies": {
     "@material-ui/core": "4.11.3",
+    "axios": "^0.21.1",
+    "fs-extra": "^9.1.0",
     "graphql-hooks": "5.1.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",

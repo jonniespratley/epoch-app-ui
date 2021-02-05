@@ -1,35 +1,183 @@
 {
   "users": {
-    "jonniespratley": {
-      "username": "jonniespratley",
-      "image": "/assets/avatar-js.jpg",
-      "playlistUrl": "data/jonniespratley-playlist.json",
-      "items": [
-        {
-          "id": "playlist-1",
-          "image": "http://placehold.it/225",
-          "name": "Top Tracks",
-          "tracks": {
-            "href": "https://api.spotify.com/v1/playlists/1jZBfxuDddTPxZBAVKgVoA/tracks",
-            "total": 21
-          }
-        },
-        {
-          "id": "playlist-2",
-          "image": "http://placehold.it/225",
-          "name": "Summer Tracks",
-          "tracks": {
-            "href": "https://api.spotify.com/v1/playlists/1jZBfxuDddTPxZBAVKgVoA/tracks",
-            "total": 21
-          }
-        }
-      ]
-    },
+   
     "shawnsakamoto": {
       "username": "shawnsakamoto",
       "image": "https://static1.squarespace.com/static/5aa02efae2ccd15a8789fc8f/t/5aee18041ae6cf459ed1f810/1612206814091/?format=75w",
       "playlistUrl": "data/shawnsakamoto-playlist.json",
       "items": [
+        {
+          "id": "fix-1-2021",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1612206712774-H6USENDBA4IEMN68JPR3/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmFk_H6M1tkD9NpL7mXac0oVSXdFfjxR5AjcLwGSebOiGBsFzzcw3xKxvyC_6CFFG_/1.2021+-+img.jpg?format=300w",
+          "name": "1.2021",
+          "tracks": {
+            "href": "",
+            "total": 0
+          }
+        },
+
+        {
+          "id": "section-2021",
+          "type": "section"
+        },
+
+        {
+          "id": "fix-12-2020",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1609521016466-H32LF0CTYQQ9W5DIZURB/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmFk_H6M1tkD9NpL7mXac0oVSXdFfjxR5AjcLwGSebOiGBsFzzcw3xKxvyC_6CFFG_/12.2020.jpg?format=300w",
+          "name": "12.2020",
+          "tracks": {
+            "href": "",
+            "total": 0
+          }
+        },
+        {
+          "id": "fix-11-2020",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1606868708128-UUVVQ134NIAOAQNTUD7Z/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmFk_H6M1tkD9NpL7mXac0oVSXdFfjxR5AjcLwGSebOiGBsFzzcw3xKxvyC_6CFFG_/11.2020+-+img.jpg?format=300w",
+          "name": "11.2020",
+          "tracks": {
+            "href": "",
+            "total": 0
+          }
+        },
+        {
+          "id": "fix-10-2020",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1604257669584-32IHTEWHVR8A48CF42S1/ke17ZwdGBToddI8pDm48kH7bcx_p807l_7aJvGUB_uN7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0ivq7Q1ckvJa8MA8qNUlEOb5ayIfISEBZb_L8CfvGEaIB8YD9SEW32zUFrGfM3H_Sw/10.2020+-+img.jpg?format=300w",
+          "name": "10.2020",
+          "tracks": {
+            "href": "",
+            "total": 0
+          }
+        },
+        {
+          "id": "fix-9-2020",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1601605583616-6KNQZ9X4H6FDCXPPEPI2/ke17ZwdGBToddI8pDm48kJizlrxBEDbOD06qWDJl1u97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URpwtpUAS2sBVc9cbCmZkxoEXHY5SF-Capz3MC248JtkNWHQQtXsFcfIBKUkLAx8-w/9.22.20+-+img.jpg?format=300w",
+          "name": "9.2020",
+          "tracks": {
+            "href": "",
+            "total": 0
+          }
+        },
+        {
+          "id": "fix-8-2020",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1598921342127-NLJK63A1A6J5TH21G9L1/ke17ZwdGBToddI8pDm48kAf-OpKpNsh_OjjU8JOdDKBZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpzAFzFJoCInLPKyj9AG8yKe7-Q2aFvP177fkO9TY_-rz5WoqqTEZpmj4yDEOdwKV68/8.2020+-+img.jpg?format=300w",
+          "name": "8.2020",
+          "tracks": {
+            "href": "",
+            "total": 0
+          }
+        },
+        {
+          "id": "fix-7-2020",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1596231331532-AH3TWFH1XJJU5UGWC1PT/ke17ZwdGBToddI8pDm48kDTN5oLSwDPcTwLWw79Lygx7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmtB678DRWVwYkSJZ19In_NaZ9kBYvg-SniiUOyqszJbtASxzVcZJj1C0rni_mEF6M/7.2020+-+img.jpg?format=300w",
+          "name": "7.2020",
+          "tracks": {
+            "href": "",
+            "total": 0
+          }
+        },
+        {
+          "id": "fix-6-2020",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1593567409546-89TXT6XF4WZS0LSF7D3F/ke17ZwdGBToddI8pDm48kPbO0h0l2DCVUP9oRrET_Fd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmNFveLtSPA03JKuAUT-dZq1tzZc7lNFZZqBb60WbrnFcz_Yg0P2Adg4lYIKywTfco/6.2020+-+img.jpg?format=300w",
+          "name": "6.2020",
+          "tracks": {
+            "href": "",
+            "total": 0
+          }
+        },
+        {
+          "id": "fix-5-2020",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1590930711425-EDFCSHGT8NC1R9EZ1KV5/ke17ZwdGBToddI8pDm48kFrMQGbB3Kx_IPnSET4NXL97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmUJhYbF90H-5_X8RF95sdngkXOiXExxKNA35VFdBZ3M06O4BCziQTkIY35feKF4NH/image-asset.jpeg?format=300w",
+          "name": "5.2020",
+          "tracks": {
+            "href": "",
+            "total": 0
+          }
+        },
+        {
+          "id": "fix-4-2020",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1588275421081-5S2DKVZCTS3Q994YDNF1/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmFk_H6M1tkD9NpL7mXac0oVSXdFfjxR5AjcLwGSebOiGBsFzzcw3xKxvyC_6CFFG_/4.2020+-+img.jpg?format=300w",
+          "name": "4.2020",
+          "tracks": {
+            "href": "",
+            "total": 0
+          }
+        },
+        {
+          "id": "fix-3-2020",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1585692581585-EN7YK7XGGASIQL8MU6CI/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmFk_H6M1tkD9NpL7mXac0oVSXdFfjxR5AjcLwGSebOiGBsFzzcw3xKxvyC_6CFFG_/3.2020.png?format=300w",
+          "name": "3.2020",
+          "tracks": {
+            "href": "",
+            "total": 0
+          }
+        },
+        {
+          "id": "fix-2-2020",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1583005164225-HDDI6IHMKSEUV8MUF8AF/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmN9YSRtfoTLg6dUq-6F17A0FFZK5fArcnK1IqGweyunyWChwIwkIJ_P7MaZif-uMs/2.2020+-+img.png?format=300w",
+          "name": "2.2020",
+          "tracks": {
+            "href": "",
+            "total": 0
+          }
+        },
+        {
+          "id": "fix-1-2020",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1580501793609-HKQFIP0ZHZAYNDZOTUG4/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmFk_H6M1tkD9NpL7mXac0oVSXdFfjxR5AjcLwGSebOiGBsFzzcw3xKxvyC_6CFFG_/1.2020.jpg?format=300w",
+          "name": "1.2020",
+          "tracks": {
+            "href": "",
+            "total": 0
+          }
+        },
+        {
+          "id": "section-2020",
+          "type": "section"
+        },
+        {
+          "id": "fix-12-2019",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1577814975518-V0VA931EAKORSCQ04F23/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmFk_H6M1tkD9NpL7mXac0oVSXdFfjxR5AjcLwGSebOiGBsFzzcw3xKxvyC_6CFFG_/12.2019+-+img.jpg?format=300w",
+          "name": "12.2019",
+          "tracks": {
+            "href": "",
+            "total": 0
+          }
+        },
+        {
+          "id": "fix-11-2019",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1575141355752-VO059VRY5VT9SJ9O995U/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmFk_H6M1tkD9NpL7mXac0oVSXdFfjxR5AjcLwGSebOiGBsFzzcw3xKxvyC_6CFFG_/11.2019+-+img.jpg?format=300w",
+          "name": "11.2019",
+          "tracks": {
+            "href": "",
+            "total": 0
+          }
+        },
+        {
+          "id": "fix-10-2019",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1572556759062-GPOCMM338CCJJ27NQCJ0/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmFk_H6M1tkD9NpL7mXac0oVSXdFfjxR5AjcLwGSebOiGBsFzzcw3xKxvyC_6CFFG_/10.2019+-+img.jpg?format=300w",
+          "name": "10.2019",
+          "tracks": {
+            "href": "",
+            "total": 0
+          }
+        },
+        {
+          "id": "fix-9-2019",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1569889334078-F00CN6QBRHWT5I48QOK5/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmFk_H6M1tkD9NpL7mXac0oVSXdFfjxR5AjcLwGSebOiGBsFzzcw3xKxvyC_6CFFG_/9.2019+-+img.jpg?format=300w",
+          "name": "9.2019",
+          "tracks": {
+            "href": "",
+            "total": 0
+          }
+        },
+        {
+          "id": "fix-8-2019",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1567274605788-KC48ZPSH3SH3MH3DSB8N/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmFk_H6M1tkD9NpL7mXac0oVSXdFfjxR5AjcLwGSebOiGBsFzzcw3xKxvyC_6CFFG_/8.2019+-+img.jpg?format=300w",
+          "name": "8.2019",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/1jZBfxuDddTPxZBAVKgVoA/tracks",
+            "total": 0
+          }
+        },
         {
           "id": "1jZBfxuDddTPxZBAVKgVoA",
           "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1564609297790-OE79HV5BZ7L8UAED9H4X/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmFk_H6M1tkD9NpL7mXac0oVSXdFfjxR5AjcLwGSebOiGBsFzzcw3xKxvyC_6CFFG_/7.2019.jpg?format=300w",
@@ -41,7 +189,7 @@
         },
         {
           "id": "0QZHFFiBfq5NoIpnUIjHRS",
-          "image": "https://pl.scdn.co/images/pl/default/14bac771c34757f9d7effde2f3435950e28a9530",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1561924275425-EIILE22XG5GD04FEAUFS/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmFk_H6M1tkD9NpL7mXac0oVSXdFfjxR5AjcLwGSebOiGBsFzzcw3xKxvyC_6CFFG_/6.2019+-+img.jpg?format=300w",
           "name": "6.2019",
           "tracks": {
             "href": "https://api.spotify.com/v1/playlists/0QZHFFiBfq5NoIpnUIjHRS/tracks",
@@ -50,7 +198,7 @@
         },
         {
           "id": "3IDQY9i1kw63UjkS0jg0Q8",
-          "image": "https://pl.scdn.co/images/pl/default/329de46470247a240d6a6f8ae8410270d4c8f909",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1561924220401-SOGBO69ONXHEH9Q7MAWW/ke17ZwdGBToddI8pDm48kKEOFOOSVlAGFZv7I1dY0Al7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmv1ihXzK27xJYOPbUG3fJT6CoA4Smwn6PsCcK7yzEdHIWwXQib27YO0FfM1iD3o6c/5.2019+-+img.jpg?format=300w",
           "name": "5.2019",
           "tracks": {
             "href": "https://api.spotify.com/v1/playlists/3IDQY9i1kw63UjkS0jg0Q8/tracks",
@@ -59,7 +207,7 @@
         },
         {
           "id": "6woWXieyYvOjqrN2xdusty",
-          "image": "https://pl.scdn.co/images/pl/default/505260384764fd27ac04c00ce6aca21033d291f6",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1556662866405-Y2DF9Q1O2RANKF1EI3OU/ke17ZwdGBToddI8pDm48kBdBlfWXEDECPWz9z2vw2fF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmbAPWDwNhuSEKyCuGePwJdthHCm7fECu4Cc-gjHXhj4cycjkuf-bvNaKWMUGw1W6p/4.2019+-+img?format=300w",
           "name": "4.2019",
           "tracks": {
             "href": "https://api.spotify.com/v1/playlists/6woWXieyYvOjqrN2xdusty/tracks",
@@ -68,7 +216,7 @@
         },
         {
           "id": "0CrTSotRiV1s2I8f4cZKOg",
-          "image": "https://pl.scdn.co/images/pl/default/cc60eca9c044a0e5d8cf6ebf04098cf5d560b937",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1554057905495-3C0T3JT62WN1VT737BK2/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmN9YSRtfoTLg6dUq-6F17A0FFZK5fArcnK1IqGweyunyWChwIwkIJ_P7MaZif-uMs/3.2019+-+img.png?format=300w",
           "name": "3.2019",
           "tracks": {
             "href": "https://api.spotify.com/v1/playlists/0CrTSotRiV1s2I8f4cZKOg/tracks",
@@ -77,7 +225,7 @@
         },
         {
           "id": "7DIRXVjgnmQDJzy8lmVcjC",
-          "image": "https://pl.scdn.co/images/pl/default/0a3ed3cc51a1c09b52241d1234818171995fd5f4",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1551373507805-W18RIVEJ51FWQMS3XEH0/ke17ZwdGBToddI8pDm48kNiEM88mrzHRsd1mQ3bxVct7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0topjEaZcWjtmMYdCWL4dkGbxs35J-ZjFa9s1e3LsxrX8g4qcOj2k2AL08mW_Htcgg/2.2019+-+img.png?format=300w",
           "name": "2.2019",
           "tracks": {
             "href": "https://api.spotify.com/v1/playlists/7DIRXVjgnmQDJzy8lmVcjC/tracks",
@@ -86,7 +234,7 @@
         },
         {
           "id": "4KSFAjcj89oohGI09qo93S",
-          "image": "https://pl.scdn.co/images/pl/default/71375093d87b22503d626798d77dd94e9c8b061a",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1548979436263-QO43WNUJTN2AUC99B86L/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmN9YSRtfoTLg6dUq-6F17A0FFZK5fArcnK1IqGweyunyWChwIwkIJ_P7MaZif-uMs/1.2019+-+img.png?format=300w",
           "name": "1.2019",
           "tracks": {
             "href": "https://api.spotify.com/v1/playlists/4KSFAjcj89oohGI09qo93S/tracks",
@@ -94,8 +242,12 @@
           }
         },
         {
+          "id": "section-2018",
+          "type": "section"
+        },
+        {
           "id": "4gbaO4SvGQ8VCQGwtMnGRn",
-          "image": "https://pl.scdn.co/images/pl/default/608659509d60a357bdd883dae2e375b75a1f72b6",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1546290381157-AEPXORIV5KC84M04INNO/ke17ZwdGBToddI8pDm48kJv8dMSlhPekTWcT2c6oSAd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmmt9rVnoh5SsI9ugICaYdmdyO3P7FjrZacd4dyBbBO094ZD33JnpWoIcsSLqReZ0g/12.2018+-+img.JPG?format=300w",
           "name": "12.2018",
           "tracks": {
             "href": "https://api.spotify.com/v1/playlists/4gbaO4SvGQ8VCQGwtMnGRn/tracks",
@@ -104,7 +256,7 @@
         },
         {
           "id": "1ofJSFraWyeZEGisxs2JKm",
-          "image": "https://pl.scdn.co/images/pl/default/39ee0c1f9a8e2774a66aab62db4532df46d83c91",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1543607577879-WFEMR1TGBXZ8UB5RC0DB/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmFk_H6M1tkD9NpL7mXac0oVSXdFfjxR5AjcLwGSebOiGBsFzzcw3xKxvyC_6CFFG_/11.2018+-+img.jpg?format=300w",
           "name": "11.2018",
           "tracks": {
             "href": "https://api.spotify.com/v1/playlists/1ofJSFraWyeZEGisxs2JKm/tracks",
@@ -113,7 +265,7 @@
         },
         {
           "id": "5l3wc90ULYjf6SMxQIgolF",
-          "image": "https://pl.scdn.co/images/pl/default/feec72c89966ef4f1a473f6d28031ca9e171d31e",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1541036891771-0L4JQMX3I7EHHW56EO7F/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmFk_H6M1tkD9NpL7mXac0oVSXdFfjxR5AjcLwGSebOiGBsFzzcw3xKxvyC_6CFFG_/10.2018+-+img.jpg?format=300w",
           "name": "10.2018",
           "tracks": {
             "href": "https://api.spotify.com/v1/playlists/5l3wc90ULYjf6SMxQIgolF/tracks",
@@ -122,7 +274,7 @@
         },
         {
           "id": "2W0CBFYcmOigGWtVumRWF1",
-          "image": "https://pl.scdn.co/images/pl/default/e207b17409567227b557f2e038045a81ce4f167b",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1538332695651-6NB4D1U7MJ0XB0LUBFR0/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmFk_H6M1tkD9NpL7mXac0oVSXdFfjxR5AjcLwGSebOiGBsFzzcw3xKxvyC_6CFFG_/9.2018+-+img.jpg?format=300w",
           "name": "9.2018",
           "tracks": {
             "href": "https://api.spotify.com/v1/playlists/2W0CBFYcmOigGWtVumRWF1/tracks",
@@ -131,7 +283,7 @@
         },
         {
           "id": "00I0IRbR7Xr5RduSDhakyd",
-          "image": "https://pl.scdn.co/images/pl/default/937d3d97ede20b9fb6cde8918e9255d153e11eae",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1535769033745-2CVRTT5FE4HEUM222SF5/ke17ZwdGBToddI8pDm48kA9iYBxTGAYaNgsUPOGx1MhZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwDpBR-XXw2RK2j0_MN9XasyEOMeg-UyWiZkNacPqrSm9SDVYPLR3rWL7LEReaTjWg/8.2018+-+img.png?format=300w",
           "name": "8.2018",
           "tracks": {
             "href": "https://api.spotify.com/v1/playlists/00I0IRbR7Xr5RduSDhakyd/tracks",
@@ -140,7 +292,7 @@
         },
         {
           "id": "1CcKpTjgbmMtV2t8IJFm7f",
-          "image": "https://pl.scdn.co/images/pl/default/f89dddcc160fa03ab05b4465f2ff44caee5557e2",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1533068976133-NNB53N9YRBKX60CIFQG5/ke17ZwdGBToddI8pDm48kL0bh65-Pp-buFj03-DpXVBZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIfDBCQ9fwYh8NUNvuUkJOa3IxiTQoXB40Y1q8oeJYSNM/7.2018.png?format=300w",
           "name": "7.2018",
           "tracks": {
             "href": "https://api.spotify.com/v1/playlists/1CcKpTjgbmMtV2t8IJFm7f/tracks",
@@ -149,7 +301,7 @@
         },
         {
           "id": "2oFS52tvg76bmxphjlm44R",
-          "image": "https://pl.scdn.co/images/pl/default/9d3493f0f9d8196b6b94750246eb987e048a64cc",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1530394744853-3DL2TSW79UFBUX7YOSY8/ke17ZwdGBToddI8pDm48kA8egbuuggQk8oEqGGqGNrBZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIu20sVOoyK82TnoeXFZWxQ2y_igfilJNZRhk-M5vVkpM/6.2018?format=300w",
           "name": "6.2018",
           "tracks": {
             "href": "https://api.spotify.com/v1/playlists/2oFS52tvg76bmxphjlm44R/tracks",
@@ -158,7 +310,7 @@
         },
         {
           "id": "4IzCqXTRGMbrzEJlkelf1U",
-          "image": "https://pl.scdn.co/images/pl/default/f9eae8677118aba81f5fd66018686c033c6333cc",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1527825179289-9XM349XZRDJLD83BFH80/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmN9YSRtfoTLg6dUq-6F17A0FFZK5fArcnK1IqGweyunyWChwIwkIJ_P7MaZif-uMs/5.2018+-+img.png?format=300w",
           "name": "5.2018",
           "tracks": {
             "href": "https://api.spotify.com/v1/playlists/4IzCqXTRGMbrzEJlkelf1U/tracks",
@@ -167,7 +319,7 @@
         },
         {
           "id": "0TdxYPQf5sVZHo58I8VKdv",
-          "image": "https://pl.scdn.co/images/pl/default/8daea1ed80da144848178724a43ad27fe209a9dc",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1525118324236-VS76PRJLRSEGTAZ4S3CN/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmFk_H6M1tkD9NpL7mXac0oVSXdFfjxR5AjcLwGSebOiGBsFzzcw3xKxvyC_6CFFG_/4.2018+-+img.jpg?format=300w",
           "name": "4.2018",
           "tracks": {
             "href": "https://api.spotify.com/v1/playlists/0TdxYPQf5sVZHo58I8VKdv/tracks",
@@ -176,7 +328,7 @@
         },
         {
           "id": "3RGnKpxkXjFchcUN8nuAvk",
-          "image": "https://pl.scdn.co/images/pl/default/40846a1fc1c6765f08779c3d2824d537716172c5",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1522529451670-M1J58QXWQU64JR0IBBP4/ke17ZwdGBToddI8pDm48kMh3mVmBaCAeGwqCLG3iONRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PITeQtWPcxF65ANawkK25DREOmFck9peR6QL8AnpRiPJE/3.2018.png?format=300w",
           "name": "3.2018",
           "tracks": {
             "href": "https://api.spotify.com/v1/playlists/3RGnKpxkXjFchcUN8nuAvk/tracks",
@@ -185,7 +337,7 @@
         },
         {
           "id": "2UEkKxR8S8GQAA2RmQKuP0",
-          "image": "https://pl.scdn.co/images/pl/default/6141154d413e60b92625cd4ce8db9148c2de764c",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1520556813390-I1KJVXYYENLS3DDC1MHR/ke17ZwdGBToddI8pDm48kGviD6MuLVXUG6S1UNFL7017gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmoJKo7K7P-K3iDKcb1IjyBx3_hiQ8dG2kYgNaoLyMIozbd9EWTssrVIuJ9uf9JYVT/2.2018.JPG?format=300w",
           "name": "2.2018",
           "tracks": {
             "href": "https://api.spotify.com/v1/playlists/2UEkKxR8S8GQAA2RmQKuP0/tracks",
@@ -194,7 +346,7 @@
         },
         {
           "id": "1ZZqQIsI8Q8cV8RUO6O4vf",
-          "image": "https://pl.scdn.co/images/pl/default/7adc447ac5d3ea3193fd6d2fb30011a008dd9965",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1520557013293-X4Z3T0TMBO4DY2LSCIBA/ke17ZwdGBToddI8pDm48kOx9thYkxoPEJMHoJ7vUPbh7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmkp8-C5yNuzs-4HYt4yp_pf4HO_JvD6AabnR2heWYaeHSFBH053jaX9eMgZ1qez3_/1.2018.PNG?format=300w",
           "name": "1.2018",
           "tracks": {
             "href": "https://api.spotify.com/v1/playlists/1ZZqQIsI8Q8cV8RUO6O4vf/tracks",
@@ -202,9 +354,40 @@
           }
         },
         {
+          "id": "section-2017",
+          "type": "section"
+        },
+        {
           "id": "34aHB6rRI9TnLB41wPxRY2",
-          "image": "https://pl.scdn.co/images/pl/default/d6a1f55a6f30afdce735bff315818d89c420b9ec",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1520556521097-V81JH7DYBCBKMULL9PMK/ke17ZwdGBToddI8pDm48kOx9thYkxoPEJMHoJ7vUPbh7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmkp8-C5yNuzs-4HYt4yp_pf4HO_JvD6AabnR2heWYaeHSFBH053jaX9eMgZ1qez3_/12.2017.PNG?format=300w",
           "name": "12.2017",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/34aHB6rRI9TnLB41wPxRY2/tracks",
+            "total": 18
+          }
+        },
+        {
+          "id": "fix-11-2017",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1520556571227-Q34C18T9QST4HZSWNCP1/ke17ZwdGBToddI8pDm48kAft6eWVkLXBWLFB2J2QXExZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIcajoel-gfRfzOFxhuvGhDCYgkiqICUngmAWVgackMP0/11.2017.PNG?format=300w",
+          "name": "11.2017",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/34aHB6rRI9TnLB41wPxRY2/tracks",
+            "total": 18
+          }
+        },
+        {
+          "id": "fix-10-2017",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1520556615602-HEDNMF6BKR1N59PD0QE6/ke17ZwdGBToddI8pDm48kMtiXMEMZ8ID8MVhA-T_Qc9Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIXpy3a2Cibo6eml5BpILeGX-BY3QvcZT7F317PmmzovI/10.2017.PNG?format=300w",
+          "name": "10.2017",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/34aHB6rRI9TnLB41wPxRY2/tracks",
+            "total": 18
+          }
+        },
+        {
+          "id": "fix-9-2017",
+          "image": "https://images.squarespace-cdn.com/content/v1/5aa02efae2ccd15a8789fc8f/1520556700352-VKSJATIJVAM09DT8JAJN/ke17ZwdGBToddI8pDm48kDFElt-7CRuUeLk516R3ybdZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpzG8R05NGkJZg8SJAVYLQuzdW18uoVUudZDM_fMuX1FrZAhkPGiGdqUfGUScG_TzaQ/9.2017.png?format=300w",
+          "name": "9.2017",
           "tracks": {
             "href": "https://api.spotify.com/v1/playlists/34aHB6rRI9TnLB41wPxRY2/tracks",
             "total": 18
