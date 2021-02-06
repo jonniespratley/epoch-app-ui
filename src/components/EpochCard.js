@@ -42,11 +42,11 @@ export const EpochCard = ({
         image={getFirstImage(images)}
         className={classes.media}
       />
-      <CardContent>
+      {link && <CardContent>
         <Link component={RouterLink} to={link} className={classes.link}>
           {name}
         </Link>
-      </CardContent>
+      </CardContent>}
     </Card>
   );
 };

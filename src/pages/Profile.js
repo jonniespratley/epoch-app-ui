@@ -15,7 +15,7 @@ const renderGridItem = ({ username, item }) => {
     );
   }
   return (
-    <Grid item xs={12} sm={4} lg={2} key={item.id}>
+    <Grid item xs={12} sm={4} lg={3} key={item.id}>
       <EpochCard {...item} link={`/browse/${username}/${item.id}`} />
     </Grid>
   );
