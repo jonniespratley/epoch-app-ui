@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link as RouterLink } from 'react-router-dom';
 import {
   Card,
   CardContent,
@@ -6,7 +7,6 @@ import {
   Link,
   makeStyles
 } from '@material-ui/core';
-import { Link as RouterLink } from 'react-router-dom';
 
 const useStyles = makeStyles({
   root: {
@@ -23,10 +23,15 @@ const useStyles = makeStyles({
   }
 });
 
+function getFirstImage(images) {
+  return images[0].url;
+}
+
 export const EpochCard = ({
   id,
   name,
   link,
+  images,
   image = 'http://placehold.it/200'
 }) => {
   const classes = useStyles();
@@ -34,7 +39,7 @@ export const EpochCard = ({
     <Card className={classes.root}>
       <CardMedia
         title={`${name} Image`}
-        image={image}
+        image={getFirstImage(images)}
         className={classes.media}
       />
       <CardContent>

@@ -1,5 +1,6 @@
 import {
   Button,
+  CircularProgress,
   Grid,
   List,
   ListItem,
@@ -49,26 +50,28 @@ const ListenButtons = () => {
   );
 };
 
-function getData(username) {
-  console.log('Fetching playlists', username);
-}
-
 export const Details = () => {
   let { username, playlist } = useParams();
   const [query, setQuery] = useState(`${username}/${playlist}`);
-  const url = query && `/${query}.json`;
+  const url = query && `/data/${query}.json`;
 
   const { status, data, error } = useFetch(url);
-  console.log(status, data, error);
 
-  // TODO - Fetch playlist details
   const playlistData = getPlaylistFromData({ username, playlist });
 
   return (
     <Grid container direction="column" justify="center" alignItems="center">
-      <Grid item>
-        <img src={playlistData.image} alt="Playlist Thumb" />
-      </Grid>
+      {status === 'error' && <div>{error}</div>}
+      {status === 'fetching' && (
+        <div className="loading">
+          <CircularProgress />
+        </div>
+      )}
+      {playlistData && (
+        <Grid item>
+          <img src={playlistData.image} alt="Playlist Thumb" />
+        </Grid>
+      )}
       <ListenButtons />
       <Grid item>
         <List>

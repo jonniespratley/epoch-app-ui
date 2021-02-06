@@ -1,9 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { Box, Divider, Grid } from '@material-ui/core';
+import { Box, CircularProgress, Divider, Grid } from '@material-ui/core';
 import { Header, EpochCard } from '../components';
-
-import data from '../data/data.json';
+import { useFetch } from '../hooks';
 
 const renderGridItem = ({ username, item }) => {
   if (item.type && item.type === 'section') {
@@ -16,7 +15,7 @@ const renderGridItem = ({ username, item }) => {
     );
   }
   return (
-    <Grid item xs={12} sm={3} key={item.id}>
+    <Grid item xs={12} sm={4} lg={2} key={item.id}>
       <EpochCard {...item} link={`/browse/${username}/${item.id}`} />
     </Grid>
   );
@@ -29,15 +28,27 @@ export const Profile = ({
 }) => {
   const { username } = useParams();
 
-  // TODO - extract and fetch from backend
-  const userData = data.users[username];
+  const url = username && `/data/${username}/playlists.json`;
+  const { status, data, error } = useFetch(url);
+
+  const userData = {
+    username,
+    items: data.items
+  };
+
   if (!userData) {
     return <div>Could not find user.</div>;
   }
 
   return (
     <section>
-      {userData && <Header username={username} avatar={userData.image} />}
+      {userData && <Header username={username} />}
+      {status === 'error' && <div>{error}</div>}
+      {status === 'fetching' && (
+        <div className="loading">
+          <CircularProgress />
+        </div>
+      )}
       <Grid container spacing={2}>
         {userData.items &&
           userData.items.map((item) => renderGridItem({ username, item }))}
