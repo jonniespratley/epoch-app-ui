@@ -13,7 +13,7 @@ import {
 } from '@material-ui/core';
 import React, { useReducer, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { EpochCard } from 'src/components';
+import { EpochCard } from '../components';
 import { useFetch } from '../hooks';
 
 function getFirstImage(images) {
@@ -27,7 +27,7 @@ const BlackButton = styled(Button)({
   color: 'white'
 });
 
-const ListenButtons = ({playlist}) => {
+const ListenButtons = ({ playlist }) => {
   return (
     <Grid item>
       <BlackButton>
@@ -37,9 +37,10 @@ const ListenButtons = ({playlist}) => {
           width={125}
         />
       </BlackButton>
-      <BlackButton onClick={() => {
-        window.open(playlist.external_urls.spotify)
-      }}>
+      <BlackButton
+        onClick={() => {
+          window.open(playlist.external_urls.spotify);
+        }}>
         <img
           src="/assets/listen-on-sptfy-button.png"
           alt="Listen on Spotify"
@@ -50,12 +51,11 @@ const ListenButtons = ({playlist}) => {
   );
 };
 
-
-function getTrackArtist(track){
-  return track.artists[0].name
+function getTrackArtist(track) {
+  return track.artists[0].name;
 }
-function getTrackAlbum(track){
-  return track.album.name
+function getTrackAlbum(track) {
+  return track.album.name;
 }
 function getTrackImage(track) {
   return track.album.images[2].url;
@@ -67,11 +67,12 @@ function renderTrackItem(item, index) {
       <ListItemAvatar>
         <Avatar src={getTrackImage(item.track)} />
       </ListItemAvatar>
-      <ListItemText 
-        primary={`${index + 1} - ${item.track.name}`} 
-        secondary={`${getTrackArtist(item.track)} - ${getTrackAlbum(item.track)}`}
-        />
-      
+      <ListItemText
+        primary={`${index + 1} - ${item.track.name}`}
+        secondary={`${getTrackArtist(item.track)} - ${getTrackAlbum(
+          item.track
+        )}`}
+      />
     </ListItem>
   );
 }
@@ -94,7 +95,11 @@ export const Details = () => {
           </div>
         )}
         {status === 'fetched' && (
-          <Grid container justify="center" alignItems="center" direction="column">
+          <Grid
+            container
+            justify="center"
+            alignItems="center"
+            direction="column">
             {playlistData && (
               <Grid item>
                 <Typography variant="h4">{playlistData.name}</Typography>
@@ -105,7 +110,7 @@ export const Details = () => {
                 />
               </Grid>
             )}
-            <ListenButtons playlist={playlistData}/>
+            <ListenButtons playlist={playlistData} />
 
             <Grid item>
               <List>
